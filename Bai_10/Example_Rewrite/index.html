@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
-        <title>Hello, world!</title>
-        <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-    </head>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<title>Hello, world!</title>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+</head>
+
 <body>
 
-    <!-- Boostrap Collaspe  -->
+	<!-- Boostrap Collaspe  -->
 
-		<style>
-			.section-one .inner-main{
-				border-radius: 10px;
-				overflow: hidden;
-			}
+	<style>
+		.section-one .inner-main {
+			border-radius: 10px;
+			overflow: hidden;
+		}
 
-			.section-one .inner-head{
-				background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
-				text-align: center;
-				font-weight: 700;
-				font-size: 32px;
-			}
+		.section-one .inner-head {
+			background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+			text-align: center;
+			padding: 10px;
+		}
 
-			.section-one .inner-body{
-				border: 1px solid #dddddd;
-				padding: 20px;
-				border-radius: 0 0 10px 10px;
-			}
+		.section-one .inner-head .inner-title{
+			color: #fff;
+			font-weight: 700;
+			font-size: 32px;
+		}
 
-			.section-one .card {
-				border: 0;
-				margin-bottom: 10px;
-			}
+		.section-one .inner-body {
+			border: 1px solid #dddddd;
+			padding: 20px;
+			border-radius: 0 0 10px 10px;
+		}
 
-			.section-one .card-header{
-				background: #ffffff;
-				border: 0;
-				padding: 0;
-			}
+		.section-one .card {
+			border: 0;
+			margin-bottom: 10px;
+		}
 
-			.section-one .btn{
-				border: 1px solid transparent;
-				color: orange;
-				text-decoration: none;
-			}
+		.section-one .card-header {
+			background: #ffffff;
+			border: 0;
+			padding: 0;
+		}
 
-			.section-one .btn:focus{
-				box-shadow: none;
-			}
+		.section-one .btn {
+			border: 1px solid transparent;
+			color: orange;
+			text-decoration: none;
+		}
 
-			.section-one .collapsed{
-				border: 1px solid #dddddd;
-				margin-bottom: 5px;
-				color: #000000;
-			}
+		.section-one .btn:focus {
+			box-shadow: none;
+		}
 
-		</style>
+		.section-one .collapsed {
+			border: 1px solid #dddddd;
+			margin-bottom: 5px;
+			color: #000000;
+		}
+	</style>
 
-    <div class="section-one">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="inner-main">
-							<div class="inner-head">
-								<h2 class="inner-title">Câu hỏi thường gặp</h2>
-							</div>
-							<div class="inner-body">
-								<div class="accordion" id="accordionExample">
-									<div class="card">
-										<div class="card-header" id="headingOne">
-											<h2 class="mb-0">
-												<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													Logo là gì ?
-												</button>
-											</h2>
-										</div>
-								
-										<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-											<div class="card-body">
+	<div class="section-one">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="inner-main">
+						<div class="inner-head">
+							<h2 class="inner-title">Câu hỏi thường gặp</h2>
+						</div>
+						<div class="inner-body">
+							<div class="accordion" id="accordionExample">
+								<div class="card">
+									<div class="card-header" id="headingOne">
+										<h2 class="mb-0">
+											<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+												data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Logo là gì ?
+											</button>
+										</h2>
+									</div>
+
+									<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+										data-parent="#accordionExample">
+										<div class="card-body">
 											Logo là một hình ảnh đại diện thương hiệu được có thể được tạo thành từ văn
 											bản và biểu tượng. Một
 											logo tốt thể hiện những gì một thương hiệu làm và giá trị của thương hiệu.
@@ -89,19 +97,20 @@
 											vào loại logo, logo có thể bao gồm biểu tượng, tên thương hiệu (tên viết tắt
 											cùng với dòng giới
 											thiệu (tagline)).
-											</div>
 										</div>
 									</div>
-									<div class="card">
-										<div class="card-header" id="headingTwo">
-											<h2 class="mb-0">
-												<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-													Vì sao cần thiết kế Logo chuyên nghiệp?
-												</button>
-											</h2>
-										</div>
-										<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-											<div class="card-body">
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingTwo">
+										<h2 class="mb-0">
+											<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+												data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												Vì sao cần thiết kế Logo chuyên nghiệp?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+										<div class="card-body">
 											Logo là điểm chạm đầu tiên với khách hàng và là nền tảng để xây dựng thương
 											hiệu bền vững.
 											Thiết kế Logo chuyên nghiệp là cách đảm bảo logo của doanh nghiệp được xây
@@ -114,25 +123,27 @@
 											-Thúc đẩy lòng trung thành thương hiệu
 											- Nổi bật hơn so với đối thủ
 											- Gia tăng giá trị thương hiệu
-											</div>
 										</div>
 									</div>
-									<div class="card">
-										<div class="card-header" id="headingThree">
-											<h2 class="mb-0">
-												<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingThree">
+										<h2 class="mb-0">
+											<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+												data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 												Một Logo công ty đủ tốt là như thế nào ?
-												</button>
-											</h2>
-										</div>
-										<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-											<div class="card-body">
-												Một Logo công ty tốt làm được 3 điều:
-												1. Logo cho khách hàng tiềm năng biết liệu sản phẩm có phù hợp với họ hay không 
-												2. Logo truyền đạt những gì thương hiệu của bạn.
-												Và cách tốt nhất để thiết kế nên một Logo công ty tốt là tìm sự hỗ trợ của chuyên gia.
-												Dựa trên mục tiêu của bạn, các chuyên gia sẽ có thể đề xuất loại biểu tượng, màu sắc phù hợp, hình dạng và phông chữ hỗ trợ truyền tải thông điệp như thương hiệu.
-											</div>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+										data-parent="#accordionExample">
+										<div class="card-body">
+											Một Logo công ty tốt làm được 3 điều:
+											1. Logo cho khách hàng tiềm năng biết liệu sản phẩm có phù hợp với họ hay không
+											2. Logo truyền đạt những gì thương hiệu của bạn.
+											Và cách tốt nhất để thiết kế nên một Logo công ty tốt là tìm sự hỗ trợ của chuyên gia.
+											Dựa trên mục tiêu của bạn, các chuyên gia sẽ có thể đề xuất loại biểu tượng, màu sắc phù hợp, hình
+											dạng và phông chữ hỗ trợ truyền tải thông điệp như thương hiệu.
 										</div>
 									</div>
 								</div>
@@ -142,10 +153,24 @@
 				</div>
 			</div>
 		</div>
-    <!-- Boostrap Collaspe  -->
+	</div>
+	<!-- Boostrap Collaspe  -->
 
-    <script src="./assets/bootstrap/jquery.slim.min.js"></script>
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-    
+	<!-- BOOTSTRAP DROPDOWN  -->
+	<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+		Dropdown button
+	</button>
+	<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Action</a>
+		<a class="dropdown-item" href="#">Another action</a>
+		<a class="dropdown-item" href="#">Something else here</a>
+	</div>
+	<!-- BOOTSTRAP DROPDOWN  -->
+
+
+	<script src="./assets/bootstrap/jquery.slim.min.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
