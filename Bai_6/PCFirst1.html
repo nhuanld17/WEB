@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1{
+            color: red;
+            font-size: 80px;
+        }
+        /* Ipad ngang(1024x768) */
+        @media screen and (max-width: 1024px){
+            h1{
+                color: green;
+                font-size: 70px;
+            }
+        }
+
+        /* Ipad dọc(768x1024) */
+        @media screen and (max-width: 768px) {
+            h1{
+                color: blue;
+                font-size: 60px;
+            }
+        }
+
+        /* Smart phone (480x640) */
+        @media screen and (max-width: 480px) {
+            h1{
+                color: purple;
+                font-size: 50px;
+            }
+        }
+
+        /* Smart phone nhỏ */
+        @media screen and (max-width: 320px) {
+            
+        }
+    </style>
+    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+</body>
+</html>

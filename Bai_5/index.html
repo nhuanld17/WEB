@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .content {
+        background-color: #0065BB;
+        border-radius: 8px;
+        padding: 60px 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .content::before {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 120px;
+        background-color: #0000005c;
+        border-radius: 50%;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .content::after{
+        content: "";
+        display: block;
+        width: 240px;
+        height: 240px;
+        background-color: #0000005c;
+        border-radius: 50%;
+        position: absolute;
+        right: -50px;
+        bottom: -50px;
+
+    }
+
+    .content .inner-content {
+        color: white;
+        position: relative;
+        z-index: 1;
+    }   
+    .content .inner-content::first-letter{
+        font-size: 40px;
+    }
+
+    .content .inner-content::first-line{
+        text-transform: uppercase;
+    }
+    </style>
+    <div class="content">
+        <div class="inner-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio amet eos, sed corporis quam accusamus voluptas accusantium delectus corrupti deserunt aut quasi possimus, velit explicabo quod, exercitationem sequi. Nobis, ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab distinctio odit veritatis culpa excepturi animi pariatur porro fuga, nam dolor qui optio placeat cupiditate. Doloribus ipsa labore consequuntur praesentium officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsa a ullam, animi doloribus aliquid perspiciatis vitae sit odit nihil? Qui labore dolorum ipsam vitae nam beatae aperiam nobis ad!
+        </div>
+    </div>
+</body>
+</html>

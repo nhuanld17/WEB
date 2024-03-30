@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* .navigation {
+            width: 100%;
+            height: 40px;
+            background-color: rgb(101, 101, 148);
+            position: fixed;
+            left: 0;
+            top: 0;
+            border-radius: 8px;
+            padding-bottom: 8px;
+        } */
+
+        .navigation{
+          background-color: rgb(91, 91, 148);
+          width: 100%;
+          position: fixed;
+          left: 0;
+          top: 0;
+          border-radius: 8px;
+          padding: -1px;
+        }
+
+        ul{
+          text-align: left;
+          
+        }
+
+        li {
+            display: inline;
+            margin-left: 0;
+            margin-right: 10px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        .body {
+            width: 100%;
+            height: 700px;
+            background-color: aquamarine;
+            margin-top: 60px;
+            border-radius: 8px;
+            margin-left: 0;
+            margin-right: 0;
+            position: relative;
+            z-index: -1;
+        }
+
+        .box1,
+        .box2,
+        .box3 {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+        }
+
+        .box1 {
+            left: 20px;
+            top: 20px;
+        }
+
+        .box2 {
+            left: 20px;
+            bottom: 20px;
+        }
+
+        .box3 {
+            right: 30px;
+            bottom: 10px;
+        }
+
+        .footer {
+            background-color: rgb(23, 23, 65);
+            padding: 100px;
+            margin-top: 10px;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer .content::first-line {
+            text-transform: uppercase;
+        }
+
+        .footer::before {
+            content: "";
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.253);
+            left: 20px;
+            top: 20px;
+        }
+
+        .footer::after {
+            content: "";
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.253);
+            right: -20px;
+            bottom: -30px;
+        }
+    </style>
+    <div class="navigation">
+        <div class="item">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Product</li>
+                <li>News</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="box1">
+            1
+        </div>
+        <div class="box2">
+            2
+        </div>
+        <div class="box3">
+            3
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi iure in facilis? Vitae deleniti natus,
+            molestiae nisi beatae, provident recusandae nobis sunt asperiores corporis eveniet rem repudiandae dicta
+            eius!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est qui perferendis dolore vel beatae eius
+            modi et, perspiciatis non quo explicabo quibusdam distinctio molestias ut laudantium cupiditate odio
+            aliquid.
+        </div>
+    </div>
+</body>
+
+</html>
